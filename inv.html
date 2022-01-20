@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/pipboy.app.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light"> 
+       <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav nav-fill">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">STAT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="inv.html">INV</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">DATA</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">MAP</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">RADIO</a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+         <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true">WEAPONS</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">ARMOUR</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">AID</button>
+            </li>
+         </ul>
+          
+         <div class="tab-content" id="myTabContent">
+            <div class="tab-pane active full" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <ul class="item-list">
+                    <li>
+                        <a href="#" class="44_pistol">.44 Pistol</a>
+                    </li>
+                    <li>
+                        <a href="#" class="10mm_pistol">10mm Pistol</a>
+                    </li>
+                    <li>
+                        <a href="#" class="assault_rifle">Assault rifle</a>
+                    </li>
+                </ul>
+
+                <div class="item-stats">
+                    <div class="row-highlights">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="damage pull-right">48</div>
+                                <div class="pull-left"> Damage </div>
+                              </div>
+                        </div>    
+                    </div>
+
+                    <div class="row-highlights"> 
+                      <div class="row">
+                          <div class="col-12">
+                              <div class="ammo pull-right">500</div>
+                              <div class="pull-left"> Ammo </div>
+                            </div>
+                      </div>    
+                   </div>
+
+                  <div class="row-highlights"> 
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="fire_rate pull-right">48</div>
+                            <div class="pull-left"> Fire-rate </div>
+                          </div>
+                    </div>    
+                 </div> 
+
+               <div class="row-highlights">  
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="range pull-right">48</div>
+                          <div class="pull-left"> Range </div>
+                        </div>
+                  </div>    
+               </div>
+
+              <div class="row-highlights">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="accuracy pull-right">48</div>
+                        <div class="pull-left"> Accuracy </div>
+                      </div>
+                 </div>    
+             </div>
+
+             <div class="row-highlights"> 
+               <div class="row">
+                  <div class="col-12">
+                      <div class="weight pull-right">48</div>
+                      <div class="pull-left"> Weight </div>
+                    </div>
+              </div>    
+            </div>
+
+            <div class="row-highlights">
+              <div class="row">
+                 <div class="col-12">
+                     <div class="value pull-right">48</div>
+                     <div class="pull-left"> Value </div>
+                   </div>
+             </div>    
+           </div>
+
+           </div>
+
+          </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+         </div>
+
+          </div>
+        </div>
+        </div>
+        </div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light pip-footer">
+            <div class="row align-items-start pip-footer">
+              <div class="col-3">
+                HP 90/90
+              </div>
+              <div class="col-6">
+                <span> LEVEL 1</span>
+                <div class="progress">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col-3 text-right">
+                AP 50/50
+              </div>
+            </div>
+          </nav>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+  <script src="js/pipboy.app.js"></script>  
+</body>
+</html>
